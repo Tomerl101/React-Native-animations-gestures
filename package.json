@@ -7,6 +7,27 @@
     "eject": "expo eject",
     "test": "node ./node_modules/jest/bin/jest.js --watchAll"
   },
+  "checkSubmission": {
+    "ex": "1",
+    "students": [
+      {
+        "id": "011112222",
+        "fullName": "Jimi Hendrix",
+        "email": "jimi@hendrix.com"
+      },
+      {
+        "id": "033334444",
+        "fullName": "Gary Numan",
+        "email": "gary@numan.com"
+      }
+    ],
+    "os": "Mac",
+    "device": "iOS",
+    "deliveryDate": "03/13/2018",
+    "delay": true,
+    "delayReason": "Not enough time.",
+    "comments": "Feature number 4 works only when running in debug mode."
+  },
   "jest": {
     "preset": "jest-expo"
   },
@@ -19,7 +40,16 @@
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
-    "jest-expo": "^32.0.0"
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-native": "^4.0.0",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-native": "^3.7.0",
+    "jest-expo": "^32.0.0",
+    "prettier": "^1.18.2"
   },
   "private": true
 }

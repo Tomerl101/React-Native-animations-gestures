@@ -1,12 +1,12 @@
-import React from "react";
-import { MapView } from "expo";
+import React from 'react'
+import { MapView } from 'expo'
 
 export default class App extends React.Component {
   render() {
     return (
       <MapView
-        showsUserLocation={true}
-        followsUserLocation={true}
+        showsUserLocation
+        followsUserLocation
         showsMyLocationButton
         style={{ flex: 1 }}
         initialRegion={{
@@ -16,6 +16,6 @@ export default class App extends React.Component {
           longitudeDelta: 0.0421
         }}
       />
-    );
+    )
   }
 }
